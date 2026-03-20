@@ -72,19 +72,15 @@ fake-job-detection-nlp/
 ├── api/ # FastAPI backend
 ├── ui/ # Streamlit frontend
 ├── src/
-│ ├── components/ # Data & model components
-│ ├── pipeline/ # Training & prediction pipeline
-│ ├── utils/ # Helper functions
-│ └── exception.py # Custom error handling
+│ ├── components/
+│ ├── pipeline/
+│ ├── utils/
+│ └── exception.py
 │
-├── artifacts/ # Saved model & vectorizer
-├── notebooks/ # EDA & experiments
-├── Dockerfile # Container setup
-├── requirements.txt # Dependencies
-└── main.py / app.py # Entry point
-
-
-
+├── artifacts/ # Model & vectorizer
+├── notebooks/ # EDA
+├── Dockerfile
+├── requirements.txt
 ---
 
 ## 🔄 ML Pipeline
