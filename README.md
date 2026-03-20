@@ -65,24 +65,6 @@ This system helps automatically identify suspicious job postings, improving trus
 
 ---
 
-## 🏗️ Project Architecture
-
-fake-job-detection-nlp/
-│
-├── api/ # FastAPI backend
-├── ui/ # Streamlit frontend
-├── src/
-│ ├── components/
-│ ├── pipeline/
-│ ├── utils/
-│ └── exception.py
-│
-├── artifacts/ # Model & vectorizer
-├── notebooks/ # EDA
-├── Dockerfile
-├── requirements.txt
----
-
 ## 🔄 ML Pipeline
 1. Data Ingestion  
 2. Data Cleaning & Preprocessing  
