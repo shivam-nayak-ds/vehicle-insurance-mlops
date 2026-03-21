@@ -1,20 +1,14 @@
-import mysql.connector
+from sqlalchemy import create_engine
+from urllib.parse import quote_plus
 
-def get_connection():
-    conn = mysql.connector.connect(
-        host="127.0.0.1",
-        user="root",  
-        password="SHIvam2005@$",
-        database="insurance_db",
-        port=3306
-    )
-    return conn
+DB_USER = "root"
+DB_PASSWORD = quote_plus("SHIvam2005@$")
+DB_HOST = "127.0.0.1"
+DB_PORT = "3306"
+DB_NAME = "insurance_db"
 
+engine = create_engine(
+    f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+)
 
-if __name__ == "__main__":
-    try:
-        conn = get_connection()
-        print("MySQL Connected Successfully ")
-        conn.close()
-    except Exception as e:
-        print(" Error:", e)
+print("✅ DB Connected")

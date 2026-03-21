@@ -1,0 +1,16 @@
+2026-03-22 03:03:58,160  - INFO - ======== PIPELINE STARTED=====
+2026-03-22 03:03:58,161  - INFO - Reading File from path:C:\Users\shiva\Downloads\archive (6)\train.csv
+2026-03-22 03:03:58,827  - INFO - File read successfully
+2026-03-22 03:03:58,827  - INFO - Standardizing columns names
+2026-03-22 03:03:58,834  - INFO - Fetching DB table columns
+2026-03-22 03:03:58,866  - ERROR - Pipeline failed : (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '$@127.0.0.1' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-03-22 03:08:22,767  - INFO - ======== PIPELINE STARTED=====
+2026-03-22 03:08:22,773  - INFO - Reading File from path:C:\Users\shiva\Downloads\archive (6)\train.csv
+2026-03-22 03:08:23,363  - INFO - File read successfully
+2026-03-22 03:08:23,363  - INFO - Standardizing columns names
+2026-03-22 03:08:23,363  - INFO - Fetching DB table columns
+2026-03-22 03:08:23,761  - INFO - Aligning columns with DB schema
+2026-03-22 03:08:23,834  - INFO - Cleaning Data
+2026-03-22 03:08:24,474  - INFO - Inserting data into Database
+2026-03-22 03:09:04,322  - INFO - ==== PIPELINE COMPLETED=====
